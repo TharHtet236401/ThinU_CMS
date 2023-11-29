@@ -1,4 +1,7 @@
-
+        *{
+            margin:0;
+            padding: 0;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -86,12 +89,14 @@
 .courses{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.layout_center{
     padding: 0rem 13rem 0rem;
 }
 
-.main_padding{
-    padding: 0rem 13rem 0rem;
-}
+
 
 .announcement-section {
     margin-top: 20px;
@@ -105,6 +110,13 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+   
+}
+
+.beautify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
 .announcement-card:hover {
@@ -113,4 +125,67 @@
 
 .video-upload {
     margin-top: 20px;
+}
+
+.category_color{
+    color:grey
+}
+
+.card{
+    --bs-card-cap-padding-y: 0rem;
+  --bs-card-cap-padding-x: 0rem;
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0rem;
+}
+
+.center{
+    text-align: center;
+}
+.create_course{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_course_edit{
+   /
+}
+
+.course_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course_section{
+    border:1px solid grey;
+    padding: 1rem;
+    
+}
+
+.course_photo_container{
+    display: flex;
+    justify-content: center;
+}
+.course_photo{
+    margin:0 auto;
+    width: 50%;
+}
+
+.video_card{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video_card img{
+    width: 10%
+   
+}
+
+.video_card a,p{
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+  
 }
